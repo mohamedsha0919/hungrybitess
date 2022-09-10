@@ -16,60 +16,60 @@ const Ourteam = () => {
           <h5 className="section-title team--text">Team Members</h5>
           <h1 className="team--text--1">Our Master Chefs</h1>
 
-          <div class="row ourteam--row">
-          <div class="col-lg-3 col-sm-3 col-md-3 col-md-6">
-            <div class="team-item text-center rounded overflow-hidden">
-              <div class="rounded-circle overflow-hidden m-4">
-                <img class="img-fluid" src={team1} alt=""/>
+          <div className="row ourteam--row">
+          <div className="col-lg-3 col-sm-3 col-md-3 col-md-6">
+            <div className="team-item text-center rounded overflow-hidden">
+              <div className="rounded-circle overflow-hidden m-4">
+                <img className="img-fluid" src={team1} alt=""/>
               </div>
-              <h5 class="mb-0">Full Name</h5>
+              <h5 className="mb-0">Full Name</h5>
               <small>Designation</small>
-              <div class="d-flex justify-content-center mt-3">
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+              <div className="d-flex justify-content-center mt-3">
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-facebook-f"></i></a>
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-twitter"></i></a>
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-instagram"></i></a>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="team-item text-center rounded overflow-hidden">
-              <div class="rounded-circle overflow-hidden m-4">
-                <img class="img-fluid" src={team2} alt=""/>
+          <div className="col-lg-3 col-md-6">
+            <div className="team-item text-center rounded overflow-hidden">
+              <div className="rounded-circle overflow-hidden m-4">
+                <img className="img-fluid" src={team2} alt=""/>
               </div>
-              <h5 class="mb-0">Full Name</h5>
+              <h5 className="mb-0">Full Name</h5>
               <small>Designation</small>
-              <div class="d-flex justify-content-center mt-3">
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+              <div className="d-flex justify-content-center mt-3">
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-facebook-f"></i></a>
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-twitter"></i></a>
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-instagram"></i></a>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="team-item text-center rounded overflow-hidden">
-              <div class="rounded-circle overflow-hidden m-4">
-                <img class="img-fluid" src={team3} alt=""/>
+          <div className="col-lg-3 col-md-6">
+            <div className="team-item text-center rounded overflow-hidden">
+              <div className="rounded-circle overflow-hidden m-4">
+                <img className="img-fluid" src={team3} alt=""/>
               </div>
-              <h5 class="mb-0">Full Name</h5>
+              <h5 className="mb-0">Full Name</h5>
               <small>Designation</small>
-              <div class="d-flex justify-content-center mt-3">
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+              <div className="d-flex justify-content-center mt-3">
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-facebook-f"></i></a>
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-twitter"></i></a>
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-instagram"></i></a>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="team-item text-center rounded overflow-hidden">
-              <div class="rounded-circle overflow-hidden m-4">
-                <img class="img-fluid" src={team4} alt=""/>
+          <div className="col-lg-3 col-md-6">
+            <div className="team-item text-center rounded overflow-hidden">
+              <div className="rounded-circle overflow-hidden m-4">
+                <img className="img-fluid" src={team4} alt=""/>
               </div>
-              <h5 class="mb-0">Full Name</h5>
+              <h5 className="mb-0">Full Name</h5>
               <small>Designation</small>
-              <div class="d-flex justify-content-center mt-3">
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+              <div className="d-flex justify-content-center mt-3">
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-facebook-f"></i></a>
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-twitter"></i></a>
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-instagram"></i></a>
               </div>
             </div>
           </div>
@@ -82,11 +82,11 @@ const Ourteam = () => {
         <div className="row g-5">
           <div className="col-lg-3 col-md-6">
             <h4 className="section-title ff-secondary text-start fw-normal mb-4">Company</h4>
-            <a className="btn btn-link" href="">About Us</a>
-            <a className="btn btn-link" href="">Contact Us</a>
-            <a className="btn btn-link" href="">Reservation</a>
-            <a className="btn btn-link" href="">Privacy Policy</a>
-            <a className="btn btn-link" href="">Terms & Condition</a>
+            <a className="btn btn-link" href="/#">About Us</a>
+            <a className="btn btn-link" href="/#">Contact Us</a>
+            <a className="btn btn-link" href="/#">Reservation</a>
+            <a className="btn btn-link" href="/#">Privacy Policy</a>
+            <a className="btn btn-link" href="/#">Terms & Condition</a>
           </div>
           <div className="col-lg-3 col-md-6">
             <h4 className="section-title ff-secondary text-start fw-normal mb-4">Contact</h4>
@@ -94,10 +94,10 @@ const Ourteam = () => {
             <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+012 345 67890</p>
             <p className="mb-2"><i className="fa fa-envelope me-3"></i>info@example.com</p>
             <div className="d-flex pt-2">
-              <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-twitter"></i></a>
-              <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-facebook-f"></i></a>
-              <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-youtube"></i></a>
-              <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-linkedin-in"></i></a>
+              <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-twitter"></i></a>
+              <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-facebook-f"></i></a>
+              <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-youtube"></i></a>
+              <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-linkedin-in"></i></a>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -121,18 +121,18 @@ const Ourteam = () => {
         <div className="copyright">
           <div className="row">
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-              &copy; <a className="" href="#">Your Site Name</a>, All Right Reserved.
+              &copy; <a className="" href="/#">Your Site Name</a>, All Right Reserved.
               
               
-              Developed By <a className="text-warning" href="#">Mohamedsha.</a><br/><br/>
-              Distributed By <a className="text-warning" href="#" target="_blank">Mohamedsha.</a>
+              Developed By <a className="text-warning" href="/#">Mohamedsha.</a><br/><br/>
+              Distributed By <a className="text-warning" href="/#" target="_blank">Mohamedsha.</a>
             </div>
             <div className="col-md-6 text-center text-md-end">
               <div className="footer-menu">
-                <a href="">Home</a>
-                <a href="">Cookies</a>
-                <a href="">Help</a>
-                <a href="">FQAs</a>
+                <a href="/#">Home</a>
+                <a href="/#">Cookies</a>
+                <a href="/#">Help</a>
+                <a href="/#">FQAs</a>
               </div>
             </div>
           </div>

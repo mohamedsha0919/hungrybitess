@@ -36,7 +36,7 @@ const Home = () => {
         <section className="home">
           <div className='row'>
             <div className='col-12 col-sm-6 col-md-6 col-lg-6 banner--col--1'>
-            <img src={ bannerimage } alt/>
+            <img src={ bannerimage } alt="test"/>
             </div>
             <div className='col-12 col-sm-6 col-md-6 col-lg-6 banner--col--2'>
               <h1 className='banner--text'>You don't need a<br/> silver fork to eat good food.</h1>
@@ -89,19 +89,19 @@ const Home = () => {
 
             <div className="row about--row--1">
               <div className="col-12 col-lg-6 col-sm-6 col-md-6 about--col--1">
-                <img className="about--img" src={banner1} alt=''/>
+                <img className="about--img" src={banner1} alt='testimonial'/>
               </div>
               <div className="col-12 col-lg-6 col-sm-6 col-md-6 about--col--2">
-                <img className="about--img" src={banner2} alt=''/>
+                <img className="about--img" src={banner2} alt='testimonial'/>
               </div>
             </div>
 
             <div className='row about--row--2'>
               <div className="col-12 col-lg-6 col-sm-6 col-md-6 about--col--3">
-                <img className="about--img" src={banner3} alt=''/>
+                <img className="about--img" src={banner3} alt='testimonial'/>
               </div>
               <div className="col-12 col-lg-6 col-sm-6 col-md-6 about--col--4">
-                <img className="about--img" src={banner4} alt=''/>
+                <img className="about--img" src={banner4} alt='testimonial'/>
               </div>
             </div>
 
@@ -162,38 +162,38 @@ const Home = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-sm-6 col-12 delivery--col--1">
-          <img src={banner5} className='delivery--man' alt='' />
+          <img src={banner5} className='delivery--man' alt='testimonial' />
         </div>
           <div className="col-md-6 col-lg-6 col-sm-6 col-12 delivery--col--2">
             <h1 className="delivery--text">Are you ready<br/> to order with the best deals?</h1>
             <div className="card">
               <div className="card-body">
               <nav>
-                  <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <button class="nav-link  mb-3 text-dark" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fas fa-motorcycle me-2"></i><b>Delivery</b></button>
-                  <button class="nav-link mb-3 text-dark" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fas fa-shopping-bag me-2"></i><b>Pickup</b></button></div>
+                  <div className="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button className="nav-link  mb-3 text-dark" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i className="fas fa-motorcycle me-2"></i><b>Delivery</b></button>
+                  <button className="nav-link mb-3 text-dark" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i className="fas fa-shopping-bag me-2"></i><b>Pickup</b></button></div>
                 </nav>
-                <div class="tab-content mt-3" id="nav-tabContent">
-                  <div class="tab-pane active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                    <form class="row gx-2 gy-2 align-items-center">
-                      <div class="col">
-                        <div class="input-group-icon">
-                          <i class="fas fa-map-marker-alt input-box-icon"></i>
-                        <label class="visually-hidden" for="inputDelivery">Address</label>
-                        <input class="form-control input-box form-hungrybites-control" id="inputDelivery" type="text" placeholder="Enter Your Address" /></div>
+                <div className="tab-content mt-3" id="nav-tabContent">
+                  <div className="tab-pane active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <form className="row gx-2 gy-2 align-items-center">
+                      <div className="col">
+                        <div className="input-group-icon">
+                          <i className="fas fa-map-marker-alt input-box-icon"></i>
+                        <label className="visually-hidden" htmlFor="inputDelivery">Address</label>
+                        <input className="form-control input-box form-hungrybites-control" id="inputDelivery" type="text" placeholder="Enter Your Address" /></div>
                       </div>
-                      <div class="d-grid gap-3 col-sm-auto"><button class="btn btn-danger delivery-btn" type="submit">Find Food</button></div>
+                      <div className="d-grid gap-3 col-sm-auto"><button className="btn btn-danger delivery-btn" type="submit">Find Food</button></div>
                     </form>
                   </div>
-                  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                    <form class="row gx-4 gy-2 align-items-center">
-                      <div class="col">
-                        <div class="input-group-icon">
-                          <i class="fas fa-map-marker-alt input-box-icon"></i>
-                        <label class="visually-hidden" for="inputPickup">Address</label>
-                        <input class="form-control input-box form-hungrybites-control" id="inputPickup" type="text" placeholder="Enter Your Address"/></div>
+                  <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <form className="row gx-4 gy-2 align-items-center">
+                      <div className="col">
+                        <div className="input-group-icon">
+                          <i className="fas fa-map-marker-alt input-box-icon"></i>
+                        <label className="visually-hidden" htmlFor="inputPickup">Address</label>
+                        <input className="form-control input-box form-hungrybites-control" id="inputPickup" type="text" placeholder="Enter Your Address"/></div>
                       </div>
-                      <div class="d-grid gap-3 col-sm-auto"><button class="btn btn-danger delivery-btn" type="submit">Find Food</button></div>
+                      <div className="d-grid gap-3 col-sm-auto"><button className="btn btn-danger delivery-btn" type="submit">Find Food</button></div>
                     </form>
                   </div>
                 </div>
@@ -214,13 +214,13 @@ const Home = () => {
                 <div className="col-md-6 col-lg-6 col-sm-6 col-12">
                   <div className="form-floating">
                     <input type="text" className="form-control" id="name" placeholder="Your Name" required/>
-                    <label for="name">Your Name</label>
+                    <label htmlFor="name">Your Name</label>
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-6 col-sm-6 col-12">
                   <div className="form-floating">
                     <input type="email" className="form-control" id="email" placeholder="Your Email" required/>
-                    <label for="email">Your Email</label>
+                    <label htmlFor="email">Your Email</label>
                   </div>
                 </div>
               </div>
@@ -228,7 +228,7 @@ const Home = () => {
                 <div className="col-md-6 col-lg-6 col-sm-6 col-12">
                   <div className="form-floating" id="date3" data-target-input="nearest">
                     <input type="text" className="form-control datetimepicker-input name" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" required />
-                    <label for="datetime">Date & Time</label>
+                    <label htmlFor="datetime">Date & Time</label>
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-6 col-sm-6 col-12">
@@ -239,13 +239,13 @@ const Home = () => {
                       <option value="3">People 3</option>
                       <option value="4">People 4</option>
                     </select>
-                    <label for="select1">No Of People</label>
+                    <label htmlFor="select1">No Of People</label>
                   </div>
                 </div>
                 <div className="col-md-12 col-lg-12 col-sm-12 col-12 textarea--col">
                   <div className="form-floating">
                     <textarea className="form-control" placeholder="Special Request" id="message"></textarea>
-                    <label for="message">Special Request</label>
+                    <label htmlFor="message">Special Request</label>
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-6 col-sm-6 col-12">
@@ -257,7 +257,7 @@ const Home = () => {
         </div>
 
         <div className="col-md-6 col-lg-6 col-sm-6 col-12">
-            <img className='reservation--img' src={banner6} alt=''/>
+            <img className='reservation--img' src={banner6} alt='testimonial'/>
         </div>
       </div>
     </div>
@@ -267,60 +267,60 @@ const Home = () => {
           <h5 className="section-title team--text">Team Members</h5>
           <h1 className="team--text--1">Our Master Chefs</h1>
 
-          <div class="row ourteam--row">
-          <div class="col-lg-3 col-sm-3 col-md-3 col-md-6">
-            <div class="team-item text-center rounded overflow-hidden">
-              <div class="rounded-circle overflow-hidden m-4">
-                <img class="img-fluid" src={team1} alt=""/>
+          <div className="row ourteam--row">
+          <div className="col-lg-3 col-sm-3 col-md-3 col-md-6">
+            <div className="team-item text-center rounded overflow-hidden">
+              <div className="rounded-circle overflow-hidden m-4">
+                <img className="img-fluid" src={team1} alt=""/>
               </div>
-              <h5 class="mb-0">Full Name</h5>
+              <h5 className="mb-0">Full Name</h5>
               <small>Designation</small>
-              <div class="d-flex justify-content-center mt-3">
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+              <div className="d-flex justify-content-center mt-3">
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-facebook-f"></i></a>
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-twitter"></i></a>
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-instagram"></i></a>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="team-item text-center rounded overflow-hidden">
-              <div class="rounded-circle overflow-hidden m-4">
-                <img class="img-fluid" src={team2} alt=""/>
+          <div className="col-lg-3 col-md-6">
+            <div className="team-item text-center rounded overflow-hidden">
+              <div className="rounded-circle overflow-hidden m-4">
+                <img className="img-fluid" src={team2} alt=""/>
               </div>
-              <h5 class="mb-0">Full Name</h5>
+              <h5 className="mb-0">Full Name</h5>
               <small>Designation</small>
-              <div class="d-flex justify-content-center mt-3">
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+              <div className="d-flex justify-content-center mt-3">
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-facebook-f"></i></a>
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-twitter"></i></a>
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-instagram"></i></a>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="team-item text-center rounded overflow-hidden">
-              <div class="rounded-circle overflow-hidden m-4">
-                <img class="img-fluid" src={team3} alt=""/>
+          <div className="col-lg-3 col-md-6">
+            <div className="team-item text-center rounded overflow-hidden">
+              <div className="rounded-circle overflow-hidden m-4">
+                <img className="img-fluid" src={team3} alt=""/>
               </div>
-              <h5 class="mb-0">Full Name</h5>
+              <h5 className="mb-0">Full Name</h5>
               <small>Designation</small>
-              <div class="d-flex justify-content-center mt-3">
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+              <div className="d-flex justify-content-center mt-3">
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-facebook-f"></i></a>
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-twitter"></i></a>
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-instagram"></i></a>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="team-item text-center rounded overflow-hidden">
-              <div class="rounded-circle overflow-hidden m-4">
-                <img class="img-fluid" src={team4} alt=""/>
+          <div className="col-lg-3 col-md-6">
+            <div className="team-item text-center rounded overflow-hidden">
+              <div className="rounded-circle overflow-hidden m-4">
+                <img className="img-fluid" src={team4} alt=""/>
               </div>
-              <h5 class="mb-0">Full Name</h5>
+              <h5 className="mb-0">Full Name</h5>
               <small>Designation</small>
-              <div class="d-flex justify-content-center mt-3">
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+              <div className="d-flex justify-content-center mt-3">
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-facebook-f"></i></a>
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-twitter"></i></a>
+                <a className="btn btn-square mx-1" href="/#"><i className="fab fa-instagram"></i></a>
               </div>
             </div>
           </div>
@@ -337,25 +337,25 @@ const Home = () => {
 
           <div className="row testimonial--col--row">
             <div className="col-12 col-sm-6 col-lg-6 col-md-6 testimonial--col--1">
-              <img src={testimg1} className='testimonial--img' alt=''/>
+              <img src={testimg1} className='testimonial--img' alt='testimonial'/>
             <p className="testimonial--text--2">Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.</p>
             </div>
             <div className="col-12 col-sm-6 col-lg-6 col-md-6 testimonial--col--2">
-            <img src={testimg2} className='testimonial--img' alt=''/>
+            <img src={testimg2} className='testimonial--img' alt='testimonial'/>
             <p className="testimonial--text--2">The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore!</p>
             </div>
             
             <div className="col-12 col-sm-6 col-lg-6 col-md-6 testimonial--col--3">
-            <img src={testimg3} className='testimonial--img' alt=''/>
+            <img src={testimg3} className='testimonial--img' alt='testimonial'/>
             <p className="testimonial--text--2">Hungrybites is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now!</p>
             </div>
             <div className="col-12 col-sm-6 col-lg-6 col-md-6 testimonial--col--4">
-            <img src={testimg4} className='testimonial--img' alt=''/>
+            <img src={testimg4} className='testimonial--img' alt='testimonial'/>
             <p className="testimonial--text--2">I got Hungrybites for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic.</p>
             </div>
 
             <div className="col-12 col-sm-6 col-lg-6 col-md-6 testimonial--col--5"> 
-            <img src={testimg5} className='testimonial--img' alt=''/>
+            <img src={testimg5} className='testimonial--img' alt='testimonial'/>
               <p className="testimonial--text--2">Hungrybites for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic.</p>
             </div>
             <div className="col-12 col-sm-6 col-lg-6 col-md-6 testimonial--col--6">
@@ -371,84 +371,84 @@ const Home = () => {
             <figure className="gallery-item">
               <img
               src={gallery1}
-              alt="Photo of beautifully
+              alt="mud of beautifully
               arranged food"
               />
             </figure>
             <figure className="gallery-item">
               <img
               src={gallery2}
-              alt="Photo of beautifully
+              alt="mud of beautifully
               arranged food"
               />
             </figure>
             <figure className="gallery-item">
               <img
               src={gallery3}
-              alt="Photo of beautifully
+              alt="mud of beautifully
               arranged food"
               />
             </figure>
             <figure className="gallery-item">
               <img
               src={gallery4}
-              alt="Photo of beautifully
+              alt="mud of beautifully
               arranged food"
               />
             </figure>
             <figure className="gallery-item">
               <img
               src={gallery5}
-              alt="Photo of beautifully
+              alt="mud of beautifully
               arranged food"
               />
             </figure>
             <figure className="gallery-item">
               <img
               src={gallery6}
-              alt="Photo of beautifully
+              alt="mud of beautifully
               arranged food"
               />
             </figure>
             <figure className="gallery-item">
               <img
               src={gallery7}
-              alt="Photo of beautifully
+              alt="mud of beautifully
               arranged food"
               />
             </figure>
             <figure className="gallery-item">
               <img
               src={gallery8}
-              alt="Photo of beautifully
+              alt="mud of beautifully
               arranged food"
               />
             </figure>
             <figure className="gallery-item">
               <img
               src={gallery9}
-              alt="Photo of beautifully
+              alt="mud of beautifully
               arranged food"
               />
             </figure>
             <figure className="gallery-item">
               <img
               src={gallery10}
-              alt="Photo of beautifully
+              alt="mud of beautifully
               arranged food"
               />
             </figure>
             <figure className="gallery-item">
               <img
               src={gallery11}
-              alt="Photo of beautifully
+              alt="mud of beautifully
               arranged food"
               />
             </figure>
             <figure className="gallery-item">
               <img
               src={gallery12}
-              alt="Photo of beautifully
+              alt="mud of beautifully
               arranged food"
               />
             </figure>
@@ -462,11 +462,11 @@ const Home = () => {
         <div className="row g-5">
           <div className="col-lg-3 col-md-6">
             <h4 className="section-title ff-secondary text-start fw-normal mb-4">Company</h4>
-            <a className="btn btn-link" href="">About Us</a>
-            <a className="btn btn-link" href="">Contact Us</a>
-            <a className="btn btn-link" href="">Reservation</a>
-            <a className="btn btn-link" href="">Privacy Policy</a>
-            <a className="btn btn-link" href="">Terms & Condition</a>
+            <a className="btn btn-link" href="/#">About Us</a>
+            <a className="btn btn-link" href="/#">Contact Us</a>
+            <a className="btn btn-link" href="/#">Reservation</a>
+            <a className="btn btn-link" href="/#">Privacy Policy</a>
+            <a className="btn btn-link" href="/#">Terms & Condition</a>
           </div>
           <div className="col-lg-3 col-md-6">
             <h4 className="section-title ff-secondary text-start fw-normal mb-4">Contact</h4>
@@ -474,10 +474,10 @@ const Home = () => {
             <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+012 345 67890</p>
             <p className="mb-2"><i className="fa fa-envelope me-3"></i>info@example.com</p>
             <div className="d-flex pt-2">
-              <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-twitter"></i></a>
-              <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-facebook-f"></i></a>
-              <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-youtube"></i></a>
-              <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-linkedin-in"></i></a>
+              <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-twitter"></i></a>
+              <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-facebook-f"></i></a>
+              <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-youtube"></i></a>
+              <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-linkedin-in"></i></a>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -501,18 +501,18 @@ const Home = () => {
         <div className="copyright">
           <div className="row">
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-              &copy; <a className="" href="#">Your Site Name</a>, All Right Reserved.
+              &copy; <a className="" href="/#">Your Site Name</a>, All Right Reserved.
               
               
-              Developed By <a className="text-warning" href="#">Mohamedsha.</a><br/><br/>
-              Distributed By <a className="text-warning" href="#" target="_blank">Mohamedsha.</a>
+              Developed By <a className="text-warning" href="/#">Mohamedsha.</a><br/><br/>
+              Distributed By <a className="text-warning" href="/#" target="_blank">Mohamedsha.</a>
             </div>
             <div className="col-md-6 text-center text-md-end">
               <div className="footer-menu">
-                <a href="">Home</a>
-                <a href="">Cookies</a>
-                <a href="">Help</a>
-                <a href="">FQAs</a>
+                <a href="/#">Home</a>
+                <a href="/#">Cookies</a>
+                <a href="/#">Help</a>
+                <a href="/#">FQAs</a>
               </div>
             </div>
           </div>

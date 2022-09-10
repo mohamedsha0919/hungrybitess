@@ -18,13 +18,13 @@ const Contacts = () => {
                 <div className="col-md-6 col-lg-6 col-sm-6 col-12">
                   <div className="form-floating">
                     <input type="text" className="form-control" id="name" placeholder="Your Name" required/>
-                    <label for="name">Your Name</label>
+                    <label htmlfor="name">Your Name</label>
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-6 col-sm-6 col-12">
                   <div className="form-floating">
                     <input type="email" className="form-control" id="email" placeholder="Your Email" required/>
-                    <label for="email">Your Email</label>
+                    <label htmlfor="email">Your Email</label>
                   </div>
                 </div>
               </div>
@@ -32,7 +32,7 @@ const Contacts = () => {
                 <div className="col-md-6 col-lg-6 col-sm-6 col-12">
                   <div className="form-floating" id="date3" data-target-input="nearest">
                     <input type="text" className="form-control datetimepicker-input name" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" required />
-                    <label for="datetime">Date & Time</label>
+                    <label htmlFor="datetime">Date & Time</label>
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-6 col-sm-6 col-12">
@@ -43,13 +43,13 @@ const Contacts = () => {
                       <option value="3">People 3</option>
                       <option value="4">People 4</option>
                     </select>
-                    <label for="select1">No Of People</label>
+                    <label htmlFor="select1">No Of People</label>
                   </div>
                 </div>
                 <div className="col-md-12 col-lg-12 col-sm-12 col-12 textarea--col">
                   <div className="form-floating">
                     <textarea className="form-control" placeholder="Special Request" id="message"></textarea>
-                    <label for="message">Special Request</label>
+                    <label htmlFor="message">Special Request</label>
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-6 col-sm-6 col-12">
@@ -61,7 +61,7 @@ const Contacts = () => {
         </div>
 
         <div className="col-md-6 col-lg-6 col-sm-6 col-12">
-            <img className='reservation--img' src={banner6} alt=''/>
+            <img className='reservation--img' src={banner6} alt='testimonial'/>
         </div>
       </div>
     </div>
@@ -71,11 +71,11 @@ const Contacts = () => {
         <div className="row g-5">
           <div className="col-lg-3 col-md-6">
             <h4 className="section-title ff-secondary text-start fw-normal mb-4">Company</h4>
-            <a className="btn btn-link" href="">About Us</a>
-            <a className="btn btn-link" href="">Contact Us</a>
-            <a className="btn btn-link" href="">Reservation</a>
-            <a className="btn btn-link" href="">Privacy Policy</a>
-            <a className="btn btn-link" href="">Terms & Condition</a>
+            <a className="btn btn-link" href="/#">About Us</a>
+            <a className="btn btn-link" href="/#">Contact Us</a>
+            <a className="btn btn-link" href="/#">Reservation</a>
+            <a className="btn btn-link" href="/#">Privacy Policy</a>
+            <a className="btn btn-link" href="/#">Terms & Condition</a>
           </div>
           <div className="col-lg-3 col-md-6">
             <h4 className="section-title ff-secondary text-start fw-normal mb-4">Contact</h4>
@@ -83,10 +83,10 @@ const Contacts = () => {
             <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+012 345 67890</p>
             <p className="mb-2"><i className="fa fa-envelope me-3"></i>info@example.com</p>
             <div className="d-flex pt-2">
-              <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-twitter"></i></a>
-              <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-facebook-f"></i></a>
-              <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-youtube"></i></a>
-              <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-linkedin-in"></i></a>
+              <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-twitter"></i></a>
+              <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-facebook-f"></i></a>
+              <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-youtube"></i></a>
+              <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-linkedin-in"></i></a>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -110,18 +110,18 @@ const Contacts = () => {
         <div className="copyright">
           <div className="row">
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-              &copy; <a className="" href="#">Your Site Name</a>, All Right Reserved.
+              &copy; <a className="" href="/#">Your Site Name</a>, All Right Reserved.
               
               
-              Developed By <a className="text-warning" href="#">Mohamedsha.</a><br/><br/>
-              Distributed By <a className="text-warning" href="#" target="_blank">Mohamedsha.</a>
+              Developed By <a className="text-warning" href="/#">Mohamedsha.</a><br/><br/>
+              Distributed By <a className="text-warning" href="/#" target="_blank">Mohamedsha.</a>
             </div>
             <div className="col-md-6 text-center text-md-end">
               <div className="footer-menu">
-                <a href="">Home</a>
-                <a href="">Cookies</a>
-                <a href="">Help</a>
-                <a href="">FQAs</a>
+                <a href="/#">Home</a>
+                <a href="/#">Cookies</a>
+                <a href="/#">Help</a>
+                <a href="/#">FQAs</a>
               </div>
             </div>
           </div>

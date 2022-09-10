@@ -18,19 +18,19 @@ const About = () => {
 
             <div className="row about--row--1">
               <div className="col-12 col-lg-6 col-sm-6 col-md-6 about--col--1">
-                <img className="about--img" src={banner1} alt=''/>
+                <img className="about--img" src={banner1} alt='testimonial'/>
               </div>
               <div className="col-12 col-lg-6 col-sm-6 col-md-6 about--col--2">
-                <img className="about--img" src={banner2} alt=''/>
+                <img className="about--img" src={banner2} alt='testimonial'/>
               </div>
             </div>
 
             <div className='row about--row--2'>
               <div className="col-12 col-lg-6 col-sm-6 col-md-6 about--col--3">
-                <img className="about--img" src={banner3} alt=''/>
+                <img className="about--img" src={banner3} alt='testimonial'/>
               </div>
               <div className="col-12 col-lg-6 col-sm-6 col-md-6 about--col--4">
-                <img className="about--img" src={banner4} alt=''/>
+                <img className="about--img" src={banner4} alt='testimonial'/>
               </div>
             </div>
 
@@ -68,11 +68,11 @@ const About = () => {
         <div className="row g-5">
           <div className="col-lg-3 col-md-6">
             <h4 className="section-title ff-secondary text-start fw-normal mb-4">Company</h4>
-            <a className="btn btn-link" href="">About Us</a>
-            <a className="btn btn-link" href="">Contact Us</a>
-            <a className="btn btn-link" href="">Reservation</a>
-            <a className="btn btn-link" href="">Privacy Policy</a>
-            <a className="btn btn-link" href="">Terms & Condition</a>
+            <a className="btn btn-link" href="/#">About Us</a>
+            <a className="btn btn-link" href="/#">Contact Us</a>
+            <a className="btn btn-link" href="/#">Reservation</a>
+            <a className="btn btn-link" href="/#">Privacy Policy</a>
+            <a className="btn btn-link" href="/#">Terms & Condition</a>
           </div>
           <div className="col-lg-3 col-md-6">
             <h4 className="section-title ff-secondary text-start fw-normal mb-4">Contact</h4>
@@ -80,10 +80,10 @@ const About = () => {
             <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+012 345 67890</p>
             <p className="mb-2"><i className="fa fa-envelope me-3"></i>info@example.com</p>
             <div className="d-flex pt-2">
-              <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-twitter"></i></a>
-              <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-facebook-f"></i></a>
-              <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-youtube"></i></a>
-              <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-linkedin-in"></i></a>
+              <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-twitter"></i></a>
+              <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-facebook-f"></i></a>
+              <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-youtube"></i></a>
+              <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-linkedin-in"></i></a>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -107,18 +107,18 @@ const About = () => {
         <div className="copyright">
           <div className="row">
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-              &copy; <a className="" href="#">Your Site Name</a>, All Right Reserved.
+              &copy; <a className="" href="/#">Your Site Name</a>, All Right Reserved.
               
               
-              Developed By <a className="text-warning" href="#">Mohamedsha.</a><br/><br/>
-              Distributed By <a className="text-warning" href="#" target="_blank">Mohamedsha.</a>
+              Developed By <a className="text-warning" href="/#">Mohamedsha.</a><br/><br/>
+              Distributed By <a className="text-warning" href="/#" target="_blank">Mohamedsha.</a>
             </div>
             <div className="col-md-6 text-center text-md-end">
               <div className="footer-menu">
-                <a href="">Home</a>
-                <a href="">Cookies</a>
-                <a href="">Help</a>
-                <a href="">FQAs</a>
+                <a href="/#">Home</a>
+                <a href="/#">Cookies</a>
+                <a href="/#">Help</a>
+                <a href="/#">FQAs</a>
               </div>
             </div>
           </div>
