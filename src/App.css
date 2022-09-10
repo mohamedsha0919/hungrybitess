@@ -1,38 +1,425 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navbar{
+	width: 100%;
+	height: 90px;
+  	position: relative;
+	overflow-x: visible;
+}
+.navbar-brand{
+  	margin-left: 60px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	font-size: 40px;
+	font-family: 'Square Peg', cursive;
+}
+.navbar-brand-1{
+	color: #FFD700;
+}
+.navbar-nav{
+	margin-left: auto;
+	font-size: 15px;
+  	padding-right: 60px;
+	padding-top: 0px;
+}
+.nav-item{
+  	list-style-type: none;
+	padding: 0px 10px 0px 10px;
+}
+.nav-link{
+	color: #000000;
+  	text-decoration: none;
+}
+.nav-link.active{
+	border-bottom: 2px solid #FFD700;
+}
+.Blogs.active{
+	border-bottom: none !important;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	overflow: visible;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
   }
-  to {
-    transform: rotate(360deg);
+  .dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.menutext.active{
+	border-bottom: 2px solid #FFD700;
+}
+.home{
+	width: 100%;
+	height: 100vh;
+	padding-top: 6%;
+	position: relative;
+	overflow-x: hidden;
   }
+.home img{
+	padding-top: 10px;
+	width: 100%;
+}
+.banner--col--2 .banner--text{
+	padding-top: 17%;
+	font-size: 50px;
+	font-family: "Prata", serif;
+}
+.banner--text--1{
+	font-size: 40px;
+	font-family: 'Square Peg', cursive;
+}
+.banner--btn{
+	font-size: 23px;
+	font-weight: 600;
+	font-family: 'Square Peg', cursive;
+}
+#services{
+	width: 100%;
+	height: 80vh;
+	padding-top: 7%;
+	overflow-x: hidden;
+}
+#services .row{
+	justify-content: space-between;
+}
+.service-item{
+	padding: 30px;
+	border: 0.5px solid lightgrey;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+	transition: 0.1s;
+}
+.fa{
+	padding-bottom: 20px;
+  	color: #FFD700!important;
+}
+.service-item:hover {
+	background: #FFD700;
+	color: #FFFFFF;
+}
+.service-item:hover * {
+	color: var(--light) !important;
+	transition: .1s;
+}
+#about{
+	width: 100%;
+	height: 100%;
+	padding-top: 7%;
+	overflow-x: hidden;
+}
+.about--col--2{
+	padding-top: 70px;
+}
+.about--col--3{
+	margin-top: -40px !important;
+}
+.about--col--4{
+	padding-top: 30px;
+}
+.about--img{
+	width: 100%;
+	border-radius: 10px;
+}
+.about--col--5{
+	padding-top: 7%;
+}
+.section-title{
+	 font-size: 50px;
+	 text-align: left;
+	 color: #FFA500;
+	 font-family: 'Square Peg', cursive;
+}
+.about--row--3{
+	padding-top: 30px;
+}
+.about--div{
+	display: inline-flex;
+	position: relative;
+	padding-left: 20px;
+	border-left: 5px solid #FFA500;
+}
+.about--div p{
+	padding-left: 20px;
+}
+.about--div p span{
+	font-weight: bold;
+}
+.about--btn{
+	font-size: 23px;
+	font-weight: 600;
+	margin-top: 30px;
+	font-family: 'Square Peg', cursive;
+}
+#Finished--projects{
+	width: 100%;
+	height: 300px;
+	background-image: url(assets/chad-montano-MqT0asuoIcU-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-top: 10%;
+	overflow-x: hidden;
+}
+.finished--projects--row{
+	justify-content: center;
+	align-items: center;
+}
+.finished--projects--row h5{
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 30px;
+	padding-top: 40%;
+	text-align: center;
+}
+.finished--projects--row p{
+	color: #FFFFFF;
+	text-align: center;
+}
+#delivery{
+	padding-top: 5%;
+	overflow-x: hidden;
+}
+.delivery--col--2{
+	padding-top: 17%;
+}
+.delivery--text{
+	font-family: "Prata", serif;
+}
+.delivery--man{
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	margin-left: -50px;
+	overflow-x: hidden;
+  }
+#nav-home-tab.active{
+	background-color: #FFA500;
+	color: #FFFFFF;
+}
+#nav-profile-tab.active{
+	background-color: #FFA500;
+	color: #FFFFFF;
+}
+.input-box-icon{
+	position: absolute;
+	color: #FFA500;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.form-hungrybites-control{
+	padding-left: 30px;
+}
+.form-floating textarea{
+	height: 100px !important;
+	resize: none;
+}
+.delivery-btn{
+	font-size: 23px;
+	font-family: 'Square Peg', cursive;
+}
+#reservation{
+	padding-top: 7%;
+	overflow-x: hidden;
+}
+.reservation-row{
+	padding: 30px;
+}
+.reservation--text{
+	font-family: "Prata", serif;
+}
+.reservation--row--2{
+	margin-top: 20px;
+}
+.textarea--col{
+	margin-top: 20px;
+}
+.reservation-btn{
+	font-size: 23px;
+	font-weight: 600;
+	margin-top: 30px;
+	font-family: 'Square Peg', cursive;
+}
+.reservation--img{
+	width: 100%;
+	padding-top: 20px;
+}
+#ourteams{
+	padding-top: 9%;
+	overflow-x: hidden;
+}
+.ourteam--row{
+	padding-top: 4%;
+}
+.team--text{
+	text-align: center;
+}
+.team--text--1{
+	text-align: center;
+	font-family: "Prata", serif;
+}
+.team-item {
+	box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+	height: calc(100% - 38px);
+	transition: .5s;
+}
+.btn-square{
+  background-color: #FFD700;
+  color: #FFFFFF;
+  border: none;
+}
+.team-item img {
+	transition: .5s;
+}
+.team--img{
+  padding: 0px;
+  border-radius: 50%;
+}
+.team-item:hover img {
+	transform: scale(1.1);
+}
+.team-item:hover {
+	height: 100%;
+}
+.team-item .btn {
+	border-radius: 38px 38px 0 0;
+}
+#testimonials{
+	padding-top: 9%;
+	overflow-x: hidden;
+}
+.testimonial--text{
+	text-align: center;
+}
+.testimonial--text--1{
+	text-align: center;
+	font-family: "Prata", serif;
+}
+.testimonial--row{
+	padding: 30px;
+}
+.testimonial--col--row{
+	text-align: center;
+	padding-top: 15%;
+}
+.testimonial--col--3, .testimonial--col--4{
+	padding-top: 5%;
+}
+.testimonial--col--5, .testimonial--col--6{
+	padding-top: 5%;
+}
+.testimonial--img{
+	width: 100px;
+	border-radius: 50%;
+}
+.testimonial--text--2{
+	text-align: justify !important;
+}
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.6rem;
+	padding: 1.6rem;
+  }
+  .gallery-item {
+	overflow: hidden;
+  }
+  .gallery-item img {
+	display: block;
+	width: 100%;
+	transition: all 0.4s;
+  }
+  .gallery-item img:hover {
+	transform: scale(1.1);
+  }
+  .footer .btn.btn-social {
+	margin-right: 5px;
+	width: 35px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--light);
+	border: 1px solid #FFFFFF;
+	border-radius: 35px;
+	transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+	color: #FFFFFF;
+	background-color: #FFD700;
+	border: transparent;
+}
+
+.footer .btn.btn-link {
+	display: block;
+	margin-bottom: 5px;
+	padding: 0;
+	text-align: left;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: normal;
+	text-transform: capitalize;
+	transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+	position: relative;
+	content: "\f105";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+	letter-spacing: 1px;
+	box-shadow: none;
+}
+.signup--btn{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Square Peg', cursive;
+}
+
+.footer .copyright {
+	padding: 25px 0;
+	font-size: 15px;
+	border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+	color: var(--light);
+}
+
+.footer .footer-menu a {
+	margin-right: 15px;
+	padding-right: 15px;
+	border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+	margin-right: 0;
+	padding-right: 0;
+	border-right: none;
 }
