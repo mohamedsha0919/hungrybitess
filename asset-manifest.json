@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hungrybitess/static/css/main.d7c7db20.css",
-    "main.js": "/hungrybitess/static/js/main.921bf3db.js",
+    "main.js": "/hungrybitess/static/js/main.0184b0c3.js",
     "static/js/787.129784cd.chunk.js": "/hungrybitess/static/js/787.129784cd.chunk.js",
     "static/media/chad-montano-MqT0asuoIcU-unsplash.jpg": "/hungrybitess/static/media/chad-montano-MqT0asuoIcU-unsplash.67f474f0beae80cbdbbf.jpg",
     "static/media/cloris-ying-1Qt-W4BGrgc-unsplash.jpg": "/hungrybitess/static/media/cloris-ying-1Qt-W4BGrgc-unsplash.6180813aa32963f14eb3.jpg",
@@ -35,11 +35,11 @@
     "static/media/team-1.jpg": "/hungrybitess/static/media/team-1.92658d94c39d7c348ed6.jpg",
     "index.html": "/hungrybitess/index.html",
     "main.d7c7db20.css.map": "/hungrybitess/static/css/main.d7c7db20.css.map",
-    "main.921bf3db.js.map": "/hungrybitess/static/js/main.921bf3db.js.map",
+    "main.0184b0c3.js.map": "/hungrybitess/static/js/main.0184b0c3.js.map",
     "787.129784cd.chunk.js.map": "/hungrybitess/static/js/787.129784cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7c7db20.css",
-    "static/js/main.921bf3db.js"
+    "static/js/main.0184b0c3.js"
   ]
 }
