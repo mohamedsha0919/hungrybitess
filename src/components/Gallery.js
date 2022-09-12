@@ -21,90 +21,90 @@ const Gallery = () => {
     return (
         <>
       <section style={galleryRow}>
-      <div class="row" style={galleryRow}>
+      <div className="row" style={galleryRow}>
       <div className="col-12 col-lg-10 col-md-10 col-sm-10">
             <div className="gallery rounded-circle">
               <figure className="gallery-item">
                 <img
                 src={gallery1}
-                alt="Photo of beautifully
+                alt="picture of beautifully
                 arranged food"
                 />
               </figure>
               <figure className="gallery-item">
                 <img
                 src={gallery2}
-                alt="Photo of beautifully
+                alt="picture of beautifully
                 arranged food"
                 />
               </figure>
               <figure className="gallery-item">
                 <img
                 src={gallery3}
-                alt="Photo of beautifully
+                alt="picture of beautifully
                 arranged food"
                 />
               </figure>
               <figure className="gallery-item">
                 <img
                 src={gallery4}
-                alt="Photo of beautifully
+                alt="picture of beautifully
                 arranged food"
                 />
               </figure>
               <figure className="gallery-item">
                 <img
                 src={gallery5}
-                alt="Photo of beautifully
+                alt="picture of beautifully
                 arranged food"
                 />
               </figure>
               <figure className="gallery-item">
                 <img
                 src={gallery6}
-                alt="Photo of beautifully
+                alt="picture of beautifully
                 arranged food"
                 />
               </figure>
               <figure className="gallery-item">
                 <img
                 src={gallery7}
-                alt="Photo of beautifully
+                alt="picture of beautifully
                 arranged food"
                 />
               </figure>
               <figure className="gallery-item">
                 <img
                 src={gallery8}
-                alt="Photo of beautifully
+                alt="picture of beautifully
                 arranged food"
                 />
               </figure>
               <figure className="gallery-item">
                 <img
                 src={gallery9}
-                alt="Photo of beautifully
+                alt="picture of beautifully
                 arranged food"
                 />
               </figure>
               <figure className="gallery-item">
                 <img
                 src={gallery10}
-                alt="Photo of beautifully
+                alt="picture of beautifully
                 arranged food"
                 />
               </figure>
               <figure className="gallery-item">
                 <img
                 src={gallery11}
-                alt="Photo of beautifully
+                alt="picture of beautifully
                 arranged food"
                 />
               </figure>
               <figure className="gallery-item">
                 <img
                 src={gallery12}
-                alt="Photo of beautifully
+                alt="picture of beautifully
                 arranged food"
                 />
                  </figure>
